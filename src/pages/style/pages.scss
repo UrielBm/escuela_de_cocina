@@ -6,3 +6,53 @@
   background-size: cover;
   background-position: top;
 }
+.pagesTitle {
+  font-family: var(--second);
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary);
+}
+.aboutImg {
+  width: 13rem;
+  height: auto;
+}
+/* Pages about Us */
+.aboutUs {
+  margin: 0 auto;
+  max-width: 45rem;
+  display: flex;
+  gap: 3rem;
+
+  .textAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      font-family: var(--principal);
+      text-align: justify;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    .first::first-letter {
+      color: var(--primary);
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+}
+/* pages Galeria */
+.wrapperGallery {
+  margin: 0 auto 1rem auto;
+  max-width: 45rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  .imgGallery {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+}
