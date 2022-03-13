@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="wrapper header">
       <picture>
-        <source srcset={logowebp} type="image/webp" />
+        <source srcSet={logowebp} type="image/webp" />
         <img
           className="logo"
           loading="lazy"

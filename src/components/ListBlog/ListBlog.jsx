@@ -7,7 +7,7 @@ const ListBlog = ({ title }) => {
     <main className="wrapperBlog">
       <h1 className="title">{title}</h1>
       <picture>
-        <source srcset={seperadorwebp} type="image/webp" />
+        <source srcSet={seperadorwebp} type="image/webp" />
         <img
           className="separador"
           loading="lazy"
