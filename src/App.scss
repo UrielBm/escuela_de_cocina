@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap");
+.wrapper {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+.wrapperDataPages {
+  min-height: 61vh;
+}
+:root {
+  --primary: #f66a6a;
+  --secondary: #212121;
+  --black: #000000;
+  --white: #ffffff;
+  --principal: "Lato", sans-serif;
+  --second: "Poppins", sans-serif;
+}
