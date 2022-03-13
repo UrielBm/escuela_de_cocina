@@ -1,0 +1,18 @@
+.wrapperBlog {
+  width: 60rem;
+  background-color: var(--white);
+  margin: -8.5rem auto 2rem auto;
+  padding: 1rem;
+  .title {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--second);
+  }
+  .separador {
+    display: block;
+    margin: 1.5rem auto;
+    width: 22rem;
+    height: auto;
+  }
+}

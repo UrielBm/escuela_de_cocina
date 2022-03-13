@@ -1,0 +1,20 @@
+.nav {
+  width: 100%;
+  font-family: var(--principal);
+  .nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .item {
+      text-decoration: none;
+      color: var(--black);
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: border-bottom ease-in-out 0.4s;
+      border-bottom: transparent;
+      &:hover {
+        border-bottom: 3px solid var(--primary);
+      }
+    }
+  }
+}

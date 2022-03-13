@@ -1,0 +1,52 @@
+.itemBlog {
+  color: var(--black);
+  font-family: var(--principal);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .blogImage {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .blogTitle {
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+    .metaData {
+      width: 100%;
+      display: flex;
+      .date {
+        margin-right: 1rem;
+      }
+    }
+    .aboutText {
+      line-height: 2;
+      color: var(--secondary);
+    }
+  }
+  .ActionButton {
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+    color: var(--white);
+    grid-column: 2/3;
+    width: 8rem;
+    font-weight: 700;
+    transition: width ease-in-out 0.4s;
+    &:hover {
+      width: 10rem;
+    }
+  }
+}

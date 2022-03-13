@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  .wrapperFooter {
+    width: 100%;
+    display: grid;
+    padding: 1.5rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    align-items: center;
+    .copyRight {
+      font-family: var(--principal);
+      font-size: 1.1rem;
+    }
+  }
+  .line {
+    border: 2px solid var(--primary);
+  }
+}
