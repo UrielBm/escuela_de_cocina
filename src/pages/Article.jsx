@@ -10,6 +10,7 @@ const Article = () => {
   const [loading, Setloading] = useState(true);
   useEffect(() => {
     handleGetArticle();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleGetArticle = async () => {

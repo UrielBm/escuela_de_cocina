@@ -8,6 +8,8 @@ import Loading from "../Loading/Loading";
 const ListBlog = ({ title }) => {
   useEffect(() => {
     handleGetArticles();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const [articles, Setarticles] = useState([]);
   const [loading, Setloading] = useState(true);
