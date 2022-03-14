@@ -1,6 +1,6 @@
 # Escuela de cocina page 
 
-Esta web esta hecha son React,Sass, Css, HTML, Axios  para una prueba tecnica de la empresa 14 días , la prueba conciste en maquetar una page derivada de una imagen usando assets ya proporcionados por mi parte agregue una Api  para consultar imformación y que sea más dinámica **Link**: [API](https://kitchenschool.herokuapp.com/)  
+Esta web esta hecha con React,Sass, Css, HTML, Axios  para una prueba tecnica de la empresa 14 días , la prueba conciste en maquetar una page derivada de una imagen usando assets ya proporcionados por mi parte agregue una Api  para consultar imformación y que sea más dinámica **Link**: [API](https://kitchenschool.herokuapp.com/)  
 
 ## Acerca de De mi
 
@@ -18,7 +18,7 @@ My GitHub: [github](https://github.com/UrielBm)
 ## Demo
 
 El demo de la Aplicación podras encontrarlo en la siguiente dirección:
-**Dirección del Link**: [Link-Demo](https://ecommerce-urielbm.vercel.app/)
+**Dirección del Link**: [Link-Demo](https://escuela-de-cocina.vercel.app/)
 
 ## Correr desde tu máquina
 
