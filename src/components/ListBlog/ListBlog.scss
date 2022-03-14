@@ -8,11 +8,21 @@
     font-weight: 400;
     text-align: center;
     font-family: var(--second);
+    @media (max-width: 980px) {
+      font-size: 2rem;
+    }
   }
   .separador {
     display: block;
     margin: 1.5rem auto;
     width: 22rem;
     height: auto;
+    @media (max-width: 980px) {
+      width: 100%;
+    }
+  }
+  @media (max-width: 980px) {
+    width: 90%;
+    margin: -16rem auto 2rem auto;
   }
 }

@@ -4,7 +4,13 @@
   .nav-list {
     width: 100%;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
+    li {
+      @media (max-width: 640px) {
+        margin-bottom: 0.65rem;
+      }
+    }
     .item {
       text-decoration: none;
       color: var(--black);
@@ -15,6 +21,10 @@
       &:hover {
         border-bottom: 3px solid var(--primary);
       }
+    }
+    @media (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

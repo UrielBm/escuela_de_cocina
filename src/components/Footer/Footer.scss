@@ -10,6 +10,12 @@
     .copyRight {
       font-family: var(--principal);
       font-size: 1.1rem;
+      font-weight: 700;
+    }
+    @media (max-width: 640px) {
+      grid-template-columns: unset;
+      grid-template-rows: 3fr 1fr;
+      justify-items: center;
     }
   }
   .line {

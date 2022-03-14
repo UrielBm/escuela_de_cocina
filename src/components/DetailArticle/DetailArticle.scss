@@ -8,6 +8,9 @@
     font-weight: 700;
     font-family: var(--second);
     margin-bottom: 1rem;
+    @media (max-width: 640px) {
+      font-size: 1.6rem;
+    }
   }
   .wrapperArticle {
     width: 100%;
@@ -21,7 +24,7 @@
         width: 20rem;
         height: 20rem;
         border-radius: 50%;
-        transform: rotate(-15deg);
+        object-fit: cover;
       }
     }
     .wrapperText {
@@ -36,6 +39,7 @@
         line-height: 2rem;
         text-align: justify;
         margin-bottom: 1rem;
+        font-weight: 300;
         &::first-letter {
           color: var(--primary);
           font-size: 2.5rem;
@@ -53,7 +57,25 @@
             font-weight: 700;
             font-size: 1.3rem;
           }
+          .data {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-left: 0.5rem;
+            @media (max-width: 460px) {
+              font-size: 0.85rem;
+            }
+          }
+          @media (max-width: 460px) {
+            font-size: 0.85rem;
+          }
         }
+        @media (max-width: 640px) {
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 460px) {
+        max-width: 90%;
       }
     }
   }
