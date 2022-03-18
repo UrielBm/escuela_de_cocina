@@ -1,6 +1,6 @@
 # Escuela de cocina page 
 
-Esta web esta hecha con React,Sass, Css, HTML, Axios  para una prueba tecnica de la empresa 14 días , la prueba conciste en maquetar una page derivada de una imagen usando assets ya proporcionados por mi parte agregue una Api  para consultar imformación y que sea más dinámica **Link**: [API](https://kitchenschool.herokuapp.com/)  
+Esta web esta hecha con React,Sass, Css, HTML, Axios  para una prueba tecnica de la empresa 14 días , la prueba conciste en maquetar una page derivada de una imagen usando assets ya proporcionados. Por mi parte agregue una Api  para consultar información y que sea más dinámica **Link**: [API](https://kitchenschool.herokuapp.com/)  
 
 ## Acerca de De mi
 
